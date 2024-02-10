@@ -1,8 +1,8 @@
-name: Weekly Data Scraping and Storage
+name: Daily Data Scraping and Storage
 
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Run at midnight (00:00) every Sunday
+    - cron: "45 19 * * *"  # Run at 7:45 AM local time every day
 
 jobs:
   scrape_and_store:
@@ -21,4 +21,4 @@ jobs:
       run: pip install -r requirements.txt  
 
     - name: Run Python Script
-      run: python fbref_scraper.py 
+      run: python fbref_scraper.py
