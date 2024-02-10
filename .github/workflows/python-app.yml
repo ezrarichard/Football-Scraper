@@ -44,7 +44,7 @@ jobs:
 
     - name: Download CSV
       run: |
-        curl -o data/all_leagues_2023_2024.csv https://github.com/${{ secrets.GIT_USER_NAME }}/Football-Scraper/all_leagues_2023_2024.csv
+        curl -o all_leagues_2023_2024.csv https://github.com/${{ secrets.GIT_USER_NAME }}/Football-Scraper/all_leagues_2023_2024.csv
 
     - name: Commit CSV File
       run: |
