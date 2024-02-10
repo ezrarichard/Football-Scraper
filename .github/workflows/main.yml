@@ -2,7 +2,7 @@ name: Daily Data Scraping and Storage
 
 on:
   schedule:
-    - cron: "45 15 * * *"  # Run at 7:45 AM local time every day
+    - cron: "15 16 * * *"  # Run at 7:45 AM local time every day
 
 jobs:
   scrape_and_store:
@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v2.2.3
+      uses: actions/setup-python@v2
       with:
         python-version: 3.8
 
