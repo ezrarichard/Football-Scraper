@@ -2,7 +2,7 @@ name: Daily Data Scraping and Storage
 
 on:
   schedule:
-    - cron: "30 15 * * *"  # Run at 7:45 AM local time every day
+    - cron: "45 15 * * *"  # Run at 7:45 AM local time every day
 
 jobs:
   scrape_and_store:
