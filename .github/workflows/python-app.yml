@@ -5,7 +5,8 @@ name: Python application
 
 on:
   schedule:
-    - cron: "05 20 * * *"
+    - cron: "15 20 * * 6"  # Run at 1:45 AM IST every Saturday
+    - cron: "15 20 * * 0"  # Run at 1:45 AM IST every Sunday
 
 permissions:
   contents: write
