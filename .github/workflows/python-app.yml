@@ -5,7 +5,10 @@ name: Python application
 
 on:
   schedule:
-    - cron: "35 7 * * *"
+    - cron: "30 22 * * 6"  # Run at 10:30 PM UTC every Saturday
+    - cron: "30 22 * * 0"  # Run at 10:30 PM UTC every Sunday
+    - cron: "30 22 * * 1"  # Run at 10:30 PM UTC every Monday
+    - cron: "30 22 * * 2"  # Run at 10:30 PM UTC every Tuesday
 
 permissions:
   contents: write
