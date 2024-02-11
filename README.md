@@ -29,7 +29,6 @@ The script is scheduled to run automatically via GitHub Actions every week accor
 
 Notes:
 The CSV file is updated with the latest football statistics after each scheduled run.
-You can customize the script or schedule according to your specific requirements by modifying the workflow configuration (main.yml) or the Python script (fbref_scraper.py).
 
 ## Need Help?
 
