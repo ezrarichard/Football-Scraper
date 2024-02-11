@@ -1,4 +1,8 @@
-# Football Data Scraper
+
+![EzraRichard_Banner (1)](https://github.com/ezrarichard/Football-Scraper/assets/125721936/855cc669-128c-490f-ad10-7df62e7af590)
+
+
+# Football Data Scraping
 This repository contains a Python script (fbref_scraper.py) that extracts football data from the top 5 European leagues, transforms it into a structured format, and saves it as a CSV file named all_leagues_2023_2024.csv. The script is scheduled to run via GitHub Actions every week to ensure that the data is regularly updated with the latest statistics.
 
 ## Instructions for Usage:
